@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import WrapperChat from './components/WrapperChat';
 import Header from './components/Header';
