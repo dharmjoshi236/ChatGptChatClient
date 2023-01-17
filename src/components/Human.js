@@ -15,7 +15,7 @@ const Human = (message)=> {
       <div className="msg-bubble">
         <div className="msg-info">
           <div className="msg-info-name">Human</div>
-          <div className="msg-info-time">12:46</div>
+          <div className="msg-info-time"></div>
         </div>
 
         <div className="msg-text">

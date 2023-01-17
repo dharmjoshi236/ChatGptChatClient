@@ -13,7 +13,7 @@ const Bot = (message)=> {
       <div className="msg-bubble">
         <div className="msg-info">
           <div className="msg-info-name">BOT</div>
-          <div className="msg-info-time">12:45</div>
+          <div className="msg-info-time"></div>
         </div>
 
         <div className="msg-text">
