@@ -29,7 +29,7 @@ const WrapperChat = ()=> {
     }
     const handleBotData = async (e,prompt)=> {
         e.preventDefault();
-        const response = await axios.post('http://localhost:5000/chat',{prompt: prompt});
+        const response = await axios.post('https://chatbot-server-rco6.onrender.com/chat',{prompt: prompt});
         if (response.status === 200) {
             setInitialPrompt(response.data.data);
             let stringFromBackend = response.data.data;
